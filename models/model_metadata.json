@@ -1,0 +1,23 @@
+{
+  "model_version": "1.0.0",
+  "best_model_name": "Tuned XGBoost Regressor (log1p)",
+  "target_variable": "salary_mid_lpa (INR Lakhs Per Annum)",
+  "test_mae_lpa": 2.25,
+  "test_mse": 20.71,
+  "test_rmse_lpa": 4.55,
+  "test_r2": 0.625,
+  "residual_std_lpa": 4.53,
+  "empirical_confidence_multiplier_90pct": 1.645,
+  "total_training_samples": 14047,
+  "total_test_samples": 3512,
+  "total_features": 113,
+  "best_hyperparameters": {
+    "subsample": 0.85,
+    "n_estimators": 200,
+    "min_child_weight": 3,
+    "max_depth": 4,
+    "learning_rate": 0.08,
+    "colsample_bytree": 0.95
+  },
+  "disclaimer": "Salary predictions are statistical estimates derived from disclosed compensation in tech job postings. They represent indicative market compensation benchmarks, not verified employee compensation or contractual guarantees. Actual compensation offers vary according to candidate assessment, organizational budgets, and negotiation."
+}

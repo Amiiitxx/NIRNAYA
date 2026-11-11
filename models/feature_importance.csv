@@ -1,0 +1,114 @@
+Feature,Importance
+experience_level_Fresher,0.12578629
+experience_years,0.10019359
+job_title_Data Analyst,0.05525874
+job_title_Business Analyst,0.055121187
+job_title_Python Developer,0.053827997
+experience_level_Junior,0.043512646
+experience_level_Senior,0.040443834
+job_title_MLOps Engineer,0.040014036
+experience_level_Lead,0.037275966
+job_title_AI Engineer,0.029203419
+job_title_BI Developer,0.02694213
+job_title_Machine Learning Engineer,0.026409127
+job_title_NLP Engineer,0.020919722
+state_Kerala,0.018099336
+job_title_Software Engineer,0.017443618
+experience_level_Mid-level,0.01662448
+city_Gurugram,0.016344847
+state_Madhya Pradesh,0.016240833
+state_Delhi,0.015071759
+skill_machine_learning,0.014503413
+city_Coimbatore,0.013338859
+state_Karnataka,0.012073553
+state_Gujarat,0.01207293
+skill_python,0.011762255
+state_Maharashtra,0.011485968
+state_Rajasthan,0.010261311
+state_Haryana,0.009653678
+city_Mumbai,0.007522426
+city_Indore,0.0072600422
+city_Kolkata,0.0069711227
+state_West Bengal,0.005983072
+state_Telangana,0.005248201
+city_Delhi NCR,0.0048320303
+city_Ahmedabad,0.004569531
+city_Pune,0.0043640384
+state_Uttar Pradesh,0.0039752163
+city_Bengaluru,0.0039078835
+job_title_Data Scientist,0.0032688112
+city_Jaipur,0.0030966287
+city_Noida,0.0027562638
+city_Kochi,0.0025194474
+job_title_Data Engineer,0.0019049601
+city_Chennai,0.0018306073
+industry_Telecom,0.0018123471
+skill_java,0.0017329627
+industry_E-commerce,0.0016684277
+education_Any Degree,0.0016633255
+city_Hyderabad,0.0016478837
+industry_Unknown,0.0015878371
+company_size_51-200,0.001545051
+skill_count,0.0015414499
+skill_django,0.0015294598
+skill_numpy,0.0015178142
+skill_tableau,0.0014838001
+company_size_1000+,0.0014680285
+city_Thiruvananthapuram,0.0014578733
+skill_pandas,0.0014549498
+education_Master's,0.0014300346
+industry_Product,0.0014294499
+company_size_Unknown,0.0014292423
+skill_javascript,0.0014134021
+employment_type_Part-time,0.0014122254
+skill_hadoop,0.0014121224
+job_title_cloud engineer,0.0014057064
+skill_git,0.0013827839
+skill_linux,0.0013773596
+work_mode_Unknown,0.0013682026
+work_mode_Hybrid,0.0013591278
+skill_excel,0.0013590858
+education_Diploma,0.0013442299
+skill_gcp,0.0013402827
+skill_kubernetes,0.0013387394
+industry_FinTech,0.0013314671
+company_size_1-50,0.0013292725
+education_Bachelor's,0.0012994354
+employment_type_Contract,0.0012957543
+industry_Consulting,0.0012810862
+job_title_Cloud Engineer,0.0012683683
+city_Unknown,0.001267396
+company_size_501-1000,0.0012551465
+employment_type_Internship,0.0012533586
+skill_scikit_learn,0.001243501
+skill_sql,0.001234874
+skill_pytorch,0.001226237
+skill_aws,0.0012147371
+skill_power_bi,0.0012013463
+skill_computer_vision,0.0011944624
+industry_Healthcare Tech,0.001193185
+work_mode_Remote,0.0011922605
+industry_IT Services,0.0011916021
+skill_dbt,0.0011818903
+job_title_data analyst,0.0011751284
+skill_flask,0.0011716991
+skill_docker,0.0011638645
+work_mode_On-site,0.0011636692
+education_PhD,0.0011568443
+education_Unknown,0.0011258366
+skill_fastapi,0.0010974555
+employment_type_Full-time,0.0010736765
+skill_spark,0.0010271602
+company_size_201-500,0.00086878793
+job_title_ai engineer,0.0007858556
+job_title_business analyst,0.00061734783
+job_title_mlops engineer,0.0006022612
+job_title_python developer,0.00050605275
+job_title_nlp engineer,0.0
+job_title_machine learning engineer,0.0
+job_title_data engineer,0.0
+job_title_data scientist,0.0
+job_title_software engineer,0.0
+job_title_bi developer,0.0
+state_Tamil Nadu,0.0
+state_Unknown,0.0

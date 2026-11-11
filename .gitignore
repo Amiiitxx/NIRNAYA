@@ -1,0 +1,63 @@
+# =============================================================================
+# NIRNAYA — .gitignore
+# Platform: AI-Powered Career & Job Market Intelligence Platform
+# =============================================================================
+
+# --- Python Bytecode & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.log
+
+# --- Virtual Environments (Root and Nested) ---
+.venv/
+venv/
+ENV/
+env/
+data/Lib/
+data/Scripts/
+data/Include/
+data/share/
+data/etc/
+data/pyvenv.cfg
+
+# --- Environment Variables & Sensitive Credentials ---
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+# Allow the sanitized template
+!.env.example
+
+# --- Personal Uploads & Candidate PII ---
+*.pdf
+uploads/
+temp/
+
+# --- Local Databases & Transient SQLite Files ---
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+*.parquet
+
+# --- Jupyter Notebook Checkpoints ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- Operating System Artifacts ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE & Editor Settings ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Temporary Scratch Files ---
+build_nb3.py

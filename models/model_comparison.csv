@@ -1,0 +1,11 @@
+Model,Target Formulation,CV MAE (LPA),CV RMSE (LPA),CV R2,Test MAE (LPA),Test MSE,Test RMSE (LPA),Test R2
+XGBoost (log1p),Log-Transformed (log1p),2.29,4.33,0.6268,2.25,20.73,4.55,0.6246
+Linear Regression (log1p),Log-Transformed (log1p),2.27,4.33,0.6278,2.24,20.87,4.57,0.6222
+Gradient Boosting (log1p),Log-Transformed (log1p),2.31,4.37,0.6211,2.25,20.86,4.57,0.6224
+XGBoost,Raw (salary_mid_lpa),2.35,4.38,0.6196,2.34,21.0,4.58,0.6198
+Gradient Boosting,Raw (salary_mid_lpa),2.39,4.45,0.606,2.35,21.26,4.61,0.615
+Random Forest,Raw (salary_mid_lpa),2.44,4.43,0.6103,2.42,21.86,4.68,0.6043
+Random Forest (log1p),Log-Transformed (log1p),2.41,4.43,0.6104,2.38,22.09,4.7,0.6001
+Linear Regression,Raw (salary_mid_lpa),2.55,4.5,0.5978,2.53,22.55,4.75,0.5917
+Decision Tree (log1p),Log-Transformed (log1p),2.72,4.83,0.5356,2.81,30.62,5.53,0.4456
+Decision Tree,Raw (salary_mid_lpa),2.8,4.93,0.5169,2.92,31.79,5.64,0.4244

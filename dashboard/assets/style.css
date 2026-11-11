@@ -1,0 +1,281 @@
+/* ==========================================================================
+   NIRNAYA PLATFORM DESIGN SYSTEM
+   Brand Meaning: Decision, determination, and informed judgment.
+   Tagline: "Intelligence That Drives Decisions."
+   Theme: Deep Purple (#3A0353), Primary Purple (#804A8A), Light Orange (#F8D299), Orange (#F59E51)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --bg-deep-purple: #3A0353;
+    --bg-sidebar: #250137;
+    --bg-card: #4B0968;
+    --bg-card-hover: #5A117C;
+    --primary-purple: #804A8A;
+    --light-orange: #F8D299;
+    --orange-primary: #F59E51;
+    --orange-hover: #FFAE6B;
+    --text-primary: #FFFFFF;
+    --text-secondary: #F8D299;
+    --text-body: #EFE4F5;
+    --text-muted: #C8ABD6;
+    --border-subtle: #681989;
+    --border-accent: #804A8A;
+    --border-orange: #F59E51;
+}
+
+/* Global Font and Body */
+html, body, [class*="css"] {
+    font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--text-primary);
+}
+
+/* App Background */
+.stApp {
+    background-color: var(--bg-deep-purple);
+}
+
+/* Header & Banner Styling */
+.page-title {
+    font-size: 1.95rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    letter-spacing: -0.025em;
+    margin-bottom: 0.2rem;
+}
+
+.page-subtitle {
+    font-size: 0.95rem;
+    color: var(--light-orange);
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+/* KPI Metric Cards */
+.metric-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 14px;
+    padding: 1.25rem 1.4rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 8px 24px rgba(25, 0, 38, 0.45);
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.metric-card:hover {
+    border-color: var(--orange-primary);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(245, 158, 81, 0.2);
+}
+
+.metric-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--light-orange);
+    margin-bottom: 0.4rem;
+}
+
+.metric-value {
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+}
+
+.metric-subtitle {
+    font-size: 0.775rem;
+    color: var(--text-muted);
+    margin-top: 0.4rem;
+    font-weight: 500;
+}
+
+/* Badges & Tags */
+.skill-badge {
+    display: inline-block;
+    padding: 0.35rem 0.8rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 9999px;
+    margin: 0.2rem 0.25rem;
+    background: rgba(128, 74, 138, 0.35);
+    color: #FFFFFF;
+    border: 1px solid var(--border-accent);
+}
+
+.skill-badge-essential {
+    background: rgba(245, 158, 81, 0.2);
+    color: #F8D299;
+    border: 1px solid var(--orange-primary);
+}
+
+.skill-badge-important {
+    background: rgba(248, 210, 153, 0.18);
+    color: #F8D299;
+    border: 1px solid rgba(248, 210, 153, 0.4);
+}
+
+.skill-badge-additional {
+    background: rgba(128, 74, 138, 0.3);
+    color: #EFE4F5;
+    border: 1px solid rgba(128, 74, 138, 0.5);
+}
+
+.skill-badge-matched {
+    background: rgba(16, 185, 129, 0.2);
+    color: #6EE7B7;
+    border: 1px solid #10B981;
+}
+
+/* Alerts & Panels */
+.saas-alert-info {
+    background: rgba(128, 74, 138, 0.25);
+    border-left: 4px solid var(--orange-primary);
+    padding: 0.9rem 1.25rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    font-size: 0.885rem;
+    color: #FFFFFF;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.saas-alert-warning {
+    background: rgba(245, 158, 81, 0.15);
+    border-left: 4px solid var(--orange-primary);
+    padding: 0.9rem 1.25rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    font-size: 0.885rem;
+    color: #FFFFFF;
+}
+
+.saas-alert-disclaimer {
+    background: rgba(37, 1, 55, 0.7);
+    border: 1px solid var(--border-subtle);
+    border-radius: 10px;
+    padding: 0.85rem 1.15rem;
+    margin: 1.75rem 0 0.5rem 0;
+    font-size: 0.785rem;
+    color: var(--text-muted);
+}
+
+/* Sidebar Customization */
+section[data-testid="stSidebar"] {
+    background-color: var(--bg-sidebar);
+    border-right: 1px solid var(--border-subtle);
+}
+
+section[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p {
+    color: #FFFFFF;
+}
+
+/* Streamlit Buttons: Orange Primary Action */
+.stButton > button {
+    background: linear-gradient(135deg, #F59E51, #E58735) !important;
+    color: #21002F !important;
+    font-weight: 700 !important;
+    border: none !important;
+    border-radius: 9px !important;
+    padding: 0.55rem 1.25rem !important;
+    transition: all 0.2s ease-in-out !important;
+    box-shadow: 0 4px 14px rgba(245, 158, 81, 0.35) !important;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(135deg, #FFAE6B, #F59E51) !important;
+    color: #170021 !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 6px 18px rgba(245, 158, 81, 0.5) !important;
+}
+
+/* Form Submit Button */
+button[kind="primaryFormSubmit"], button[data-testid="baseButton-primaryFormSubmit"] {
+    background: linear-gradient(135deg, #F59E51, #E58735) !important;
+    color: #21002F !important;
+    font-weight: 700 !important;
+    border: none !important;
+    box-shadow: 0 4px 14px rgba(245, 158, 81, 0.4) !important;
+}
+
+/* Hide default auto-generated multi-page nav list so only custom NIRNAYA nav menu shows */
+[data-testid="stSidebarNav"] {
+    display: none !important;
+}
+
+/* Radio Navigation Styling */
+div[data-testid="stRadio"] > div {
+    gap: 0.35rem;
+}
+
+div[data-testid="stRadio"] label {
+    background: rgba(75, 9, 104, 0.5);
+    border: 1px solid rgba(128, 74, 138, 0.3);
+    border-radius: 8px;
+    padding: 0.45rem 0.75rem;
+    transition: all 0.15s ease;
+    cursor: pointer;
+}
+
+div[data-testid="stRadio"] label:hover {
+    border-color: var(--orange-primary);
+    background: rgba(75, 9, 104, 0.85);
+}
+
+/* Input Fields & Selectboxes */
+.stSelectbox div[data-baseweb="select"] > div,
+.stMultiSelect div[data-baseweb="select"] > div,
+.stTextInput input {
+    background-color: var(--bg-card) !important;
+    color: #FFFFFF !important;
+    border-color: var(--border-subtle) !important;
+    border-radius: 8px !important;
+}
+
+.stSelectbox div[data-baseweb="select"]:hover > div,
+.stMultiSelect div[data-baseweb="select"]:hover > div {
+    border-color: var(--orange-primary) !important;
+}
+
+/* Streamlit Expander */
+div[data-testid="stExpander"] {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 10px;
+}
+
+div[data-testid="stExpander"] details summary {
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+}
+
+/* Streamlit Slider */
+div[data-testid="stSlider"] div[role="slider"] {
+    background-color: var(--orange-primary) !important;
+    border-color: var(--light-orange) !important;
+}
+
+div[data-testid="stSlider"] [data-baseweb="slider"] div {
+    color: var(--light-orange) !important;
+}
+
+/* Streamlit Tabs */
+button[data-baseweb="tab"] {
+    color: var(--text-muted) !important;
+    font-weight: 600 !important;
+}
+
+button[data-baseweb="tab"][aria-selected="true"] {
+    color: var(--orange-primary) !important;
+    border-bottom-color: var(--orange-primary) !important;
+}
+
+/* Dataframe Styling */
+div[data-testid="stDataFrame"] {
+    border: 1px solid var(--border-subtle);
+    border-radius: 10px;
+    overflow: hidden;
+}
